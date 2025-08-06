@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App de Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .link-item {
+            margin: 15px 0;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .link-item a:hover {
+            background-color: #e9e9e9;
+        }
+        .link-item img {
+            margin-right: 15px;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meus Links Favoritos</h1>
+        <div class="link-item">
+            <a href="https://www.google.com" target="_blank">
+                <img src="https://www.google.com/favicon.ico" alt="Google">
+                Google
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://www.youtube.com/s/desktop/b712222a/img/favicon_96x96.png" alt="YouTube">
+                YouTube
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://static.licdn.com/aambee/icon-size/24x24/favicon.ico" alt="LinkedIn">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+</body>
+</html>
