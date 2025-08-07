@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links de Trabalho</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: #e9ecf2;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(44, 62, 80, 0.10);
+            padding: 40px 32px 32px 32px;
+            min-width: 340px;
+            max-width: 400px;
+            text-align: left;
+        }
+        h1 {
+            color: #222;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            letter-spacing: -1px;
+        }
+        .link-item {
+            margin-bottom: 18px;
+        }
+        .link-item:last-child {
+            margin-bottom: 0;
+        }
+        .link-item a {
+            display: flex;
+            align-items: center;
+            background: #f7f8fa;
+            border: 1px solid #e0e3e8;
+            border-radius: 8px;
+            padding: 12px 18px;
+            color: #222;
+            font-size: 1.08em;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 4px rgba(44, 62, 80, 0.04);
+        }
+        .link-item a:hover {
+            background: #f0f3f8;
+            box-shadow: 0 4px 12px rgba(44, 62, 80, 0.08);
+        }
+        .link-item img {
+            margin-right: 16px;
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px;
+            border: 1px solid #e0e3e8;
+            padding: 2px;
+        }
+        @media (max-width: 500px) {
+            .container {
+                padding: 20px 8px;
+                min-width: unset;
+                max-width: 98vw;
+            }
+            h1 {
+                font-size: 1.3rem;
+            }
+            .link-item a {
+                font-size: 1em;
+                padding: 10px 8px;
+            }
+            .link-item img {
+                width: 26px;
+                height: 26px;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meus Links de Trabalho</h1>
+        <div class="link-item">
+            <a href="https://app.pipe.run/v2/login?referer=%2Fpipeline" target="_blank">
+                <img src="https://app.pipe.run/favicon.ico" alt="PipeRun" onerror="this.onerror=null;this.src='https://img.icons8.com/ios-filled/50/000000/link.png';">
+                PipeRun
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="http://outlook.live.com/" target="_blank">
+                <img src="https://outlook.live.com/favicon.ico" alt="E-mail" onerror="this.onerror=null;this.src='https://img.icons8.com/color/48/000000/ms-outlook.png';">
+                E-mail
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://discord.com/" target="_blank">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/discord-3-569463.png" alt="Discord">
+                Discord
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://app.api4com.com/login?redirect=%2Fusers%2Flist" target="_blank">
+                <img src="https://app.api4com.com/favicon.ico" alt="Api4COm" onerror="this.onerror=null;this.src='https://img.icons8.com/ios-filled/50/000000/link.png';">
+                Api4COm
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://metabase.sittax.com.br/auth/login?redirect=%2Fadmin%2Fpeople" target="_blank">
+                <img src="https://metabase.sittax.com.br/app/assets/img/favicon.ico" alt="MetaBase" onerror="this.onerror=null;this.src='https://img.icons8.com/ios-filled/50/000000/link.png';">
+                MetaBase
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://sittax.movidesk.com/Account/Login" target="_blank">
+                <img src="https://sittax.movidesk.com/favicon.ico" alt="Movie Desk" onerror="this.onerror=null;this.src='https://img.icons8.com/ios-filled/50/000000/link.png';">
+                Movie Desk
+            </a>
+        </div>
+    </div>
+</body>
+</html>
